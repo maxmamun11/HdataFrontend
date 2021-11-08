@@ -16,6 +16,11 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { ChartsModule } from 'ng2-charts';
 import { HttpClientModule } from '@angular/common/http';
+import { CatNinteenComponent } from './components/cat-ninteen/cat-ninteen.component';
+import { TopCatTwintyComponent } from './components/top-cat-twinty/top-cat-twinty.component';
+import { TopQuaterOneNineComponent } from './components/top-quater-one-nine/top-quater-one-nine.component';
+import { TopQuaterOneTwintyComponent } from './components/top-quater-one-twinty/top-quater-one-twinty.component';
+
 
 
 
@@ -24,7 +29,12 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     DashboardComponent,
     SideNavComponent,
-    AdexHistoryComponent
+    AdexHistoryComponent,
+    CatNinteenComponent,
+    TopCatTwintyComponent,
+    TopQuaterOneNineComponent,
+    TopQuaterOneTwintyComponent,
+   
   ],
   imports: [
     BrowserModule,
