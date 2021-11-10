@@ -69,11 +69,11 @@ export class TopQuaterOneNineComponent implements OnInit {
           label: 'Top 5 Brands/Products of Q1 in 2019',
           data: y,
           backgroundColor: [
-            'rgba(255, 99, 132, 5)',
-            'rgba(54, 162, 235, 5)',
-            'rgba(255, 206, 86, 5)',
-            'rgba(75, 192, 192, 5)',
-            'rgba(153, 102, 255, 5)',
+            'rgba(27, 79, 114 , 5)',
+            'rgba(40, 116, 166 , 5)',
+            'rgba(52, 152, 219, 5)',
+            'rgba(133, 193, 233, 5)',
+            'rgba( 214, 234, 248, 5)',
             'rgba(255, 159, 64, 3)',
             
         ],

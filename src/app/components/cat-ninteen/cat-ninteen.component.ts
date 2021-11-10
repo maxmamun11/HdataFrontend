@@ -72,11 +72,11 @@ export class CatNinteenComponent implements OnInit {
           label: 'Top 5 Category in 2019',
           data: y,
           backgroundColor: [
-            'rgba(255, 99, 132, 5)',
-            'rgba(54, 162, 235, 5)',
-            'rgba(255, 206, 86, 5)',
-            'rgba(75, 192, 192, 5)',
-            'rgba(153, 102, 255, 5)',
+            'rgba(14, 98, 81 , 5)',
+            'rgba(20, 143, 119  , 5)',
+            'rgba(23, 165, 137 , 5)',
+            'rgba(72, 201, 176, 5)',
+            'rgba(209, 242, 235 , 5)',
             'rgba(255, 159, 64, 3)',
             
         ],

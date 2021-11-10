@@ -20,6 +20,7 @@ import { CatNinteenComponent } from './components/cat-ninteen/cat-ninteen.compon
 import { TopCatTwintyComponent } from './components/top-cat-twinty/top-cat-twinty.component';
 import { TopQuaterOneNineComponent } from './components/top-quater-one-nine/top-quater-one-nine.component';
 import { TopQuaterOneTwintyComponent } from './components/top-quater-one-twinty/top-quater-one-twinty.component';
+import { TopQuaterTComponent } from './components/top-quater-t/top-quater-t.component';
 
 
 
@@ -34,6 +35,7 @@ import { TopQuaterOneTwintyComponent } from './components/top-quater-one-twinty/
     TopCatTwintyComponent,
     TopQuaterOneNineComponent,
     TopQuaterOneTwintyComponent,
+    TopQuaterTComponent,
    
   ],
   imports: [

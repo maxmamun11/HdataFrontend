@@ -69,11 +69,11 @@ this.adQarTwoChart.data.datasets?.pop();
         label: 'Top 5 Brands/Products of Q2 in 2019',
         data: y,
         backgroundColor: [
-          'rgba(255, 99, 132, 5)',
-          'rgba(54, 162, 235, 5)',
-          'rgba(255, 206, 86, 5)',
-          'rgba(75, 192, 192, 5)',
-          'rgba(153, 102, 255, 5)',
+          'rgba(100, 30, 22 , 5)',
+          'rgba(146, 43, 33 , 5)',
+          'rgba(192, 57, 43 , 5)',
+          'rgba(217, 136, 128 , 5)',
+          'rgba(242, 215, 213, 5)',
           'rgba(255, 159, 64, 3)',
           
       ],

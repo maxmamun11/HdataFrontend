@@ -6,7 +6,7 @@
     height:420px;
     float: right;
     border-style: solid;
-    border-color: rgb(226, 101, 43);
+    border-color: rgb(169, 169, 169);
     border-width: 2px;
     margin: 2px;
     }
@@ -15,7 +15,7 @@
     height:420px;
     float: right;
     border-style: solid;
-    border-color: rgb(43, 226, 113);
+    border-color: rgb(169, 169, 169);
     border-width: 2px;
     margin: 2px;
     
@@ -26,7 +26,7 @@
     height:420px;
     float: right;
     border-style: solid;
-    border-color: blueviolet;
+    border-color:rgb(169, 169, 169);
     border-width: 2px;
     margin: 2px;
     
@@ -36,7 +36,7 @@
     height:420px;
     float: right;
     border-style: solid;
-    border-color: blueviolet;
+    border-color: rgb(169, 169, 169);
     border-width: 2px;
     margin: 2px;
     
