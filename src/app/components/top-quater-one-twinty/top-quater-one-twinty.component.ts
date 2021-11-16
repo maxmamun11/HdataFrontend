@@ -66,7 +66,7 @@ this.adQarTwoChart.data.datasets?.pop();
     type: 'bar',
     data: {
       datasets: [{
-        label: 'Top 5 Brands/Products of Q2 in 2019',
+        label: 'Top 10 Brands/Products of Q2 in 2019',
         data: y,
         backgroundColor: [
           'rgba(100, 30, 22 , 5)',

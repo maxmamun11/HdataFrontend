@@ -67,7 +67,7 @@ async initCatt() {
         type: 'bar',
         data: {
           datasets: [{
-            label: 'Top 5 Category in 2020',
+            label: 'Top 10 Category in 2020',
             data: y,
             backgroundColor: [
               'rgba( 14, 98, 81, 5)',

@@ -66,7 +66,7 @@ export class TopQuaterOneNineComponent implements OnInit {
       type: 'bar',
       data: {
         datasets: [{
-          label: 'Top 5 Brands/Products of Q1 in 2019',
+          label: 'Top 10 Brands/Products of Q1 in 2019',
           data: y,
           backgroundColor: [
             'rgba(27, 79, 114 , 5)',

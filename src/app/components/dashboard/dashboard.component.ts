@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 import { Chart } from 'chart.js';
 import { AdvertiserService } from 'src/app/advertiser.service';
 

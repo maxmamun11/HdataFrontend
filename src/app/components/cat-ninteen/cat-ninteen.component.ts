@@ -38,7 +38,7 @@ export class CatNinteenComponent implements OnInit {
         }
       });
   });
-}
+} 
 // step four
  async initCategory() {
         await this.getCategory().then((data: any[]) =>{
@@ -69,7 +69,7 @@ export class CatNinteenComponent implements OnInit {
       type: 'bar',
       data: {
         datasets: [{
-          label: 'Top 5 Category in 2019',
+          label: 'Top 10 Category in 2019',
           data: y,
           backgroundColor: [
             'rgba(14, 98, 81 , 5)',

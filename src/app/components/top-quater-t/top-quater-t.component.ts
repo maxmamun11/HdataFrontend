@@ -66,7 +66,7 @@ this.adQarTq1Chart.data.datasets?.pop();
     type: 'bar',
     data: {
       datasets: [{
-        label: 'Top 5 Brands/Products of Q1 in 2020',
+        label: 'Top 10 Brands/Products of Q1 in 2020',
         data: y,
         backgroundColor: [
           'rgba(74, 35, 90 , 5)',

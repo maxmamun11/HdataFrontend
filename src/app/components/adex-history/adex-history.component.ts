@@ -228,7 +228,7 @@ export class AdexHistoryComponent implements OnInit {
       type: 'bar',
       data: {
         datasets: [{
-          label: 'Top 5 Category in 2020',
+          label: 'Top 10 Category in 2020',
           data: y,
           backgroundColor: [
             'rgba(255, 99, 132, 5)',
