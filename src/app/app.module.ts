@@ -23,6 +23,7 @@ import { TopQuaterOneTwintyComponent } from './components/top-quater-one-twinty/
 import { TopQuaterTComponent } from './components/top-quater-t/top-quater-t.component';
 import { TwityOneComponent } from './components/twity-one/twity-one.component';
 import { TwintyOneQThreeComponent } from './components/twinty-one-qthree/twinty-one-qthree.component';
+import { TwintyOneCtgComponent } from './components/twinty-one-ctg/twinty-one-ctg.component';
 
 
 
@@ -40,6 +41,7 @@ import { TwintyOneQThreeComponent } from './components/twinty-one-qthree/twinty-
     TopQuaterTComponent,
     TwityOneComponent,
     TwintyOneQThreeComponent,
+    TwintyOneCtgComponent,
    
   ],
   imports: [

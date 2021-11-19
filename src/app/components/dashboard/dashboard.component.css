@@ -1,0 +1,43 @@
+.col1{
+    width: 100%;
+    }
+    .col2b{
+    width: 49%;
+    height:420px;
+    float: right;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    border-width: 2px;
+    margin: 2px;
+    }
+    .col2a{
+    width: 49%;
+    height:420px;
+    float: right;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    border-width: 2px;
+    margin: 2px;
+    
+    
+    }
+    .col2c{
+    width: 49%;
+    height:420px;
+    float: right;
+    border-style: solid;
+    border-color:rgb(169, 169, 169);
+    border-width: 2px;
+    margin: 2px;
+    
+    }
+    .col2d{
+    width: 49%;
+    height:420px;
+    float: right;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    border-width: 2px;
+    margin: 2px;
+    
+    }
