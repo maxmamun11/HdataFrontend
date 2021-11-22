@@ -67,12 +67,16 @@ this.adTwintyone.data.datasets?.pop();
         label: 'Top 10 Advertisers in 2021',
         data: y,
         backgroundColor: [
-          'rgba(14, 98, 81 , 5)',
-          'rgba(20, 143, 119  , 5)',
-          'rgba(23, 165, 137 , 5)',
-          'rgba(72, 201, 176, 5)',
-          'rgba(209, 242, 235 , 5)',
-          'rgba(255, 159, 64, 3)',
+          'rgba(126, 81, 9 , 5)',
+          'rgba(156, 100, 12   , 5)',
+          'rgba(185, 119, 14 , 5)',
+          'rgba(214, 137, 16 , 5)',
+          'rgba(243, 156, 18 , 5)',
+          'rgba(248, 196, 113, 3)',
+          'rgba(240, 178, 122   , 5)',
+          'rgba(250, 229, 211 , 5)',
+          'rgba(253, 235, 208  , 5)',
+          'rgba(254, 245, 231, 3)',
           
       ],
       borderColor: [

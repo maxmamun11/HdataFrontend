@@ -67,12 +67,16 @@ export class TwintyOneQThreeComponent implements OnInit {
         label: 'Top 10 Advertisers of Q3 in 2021',
         data: y,
         backgroundColor: [
-          'rgba(14, 98, 81 , 5)',
-          'rgba(20, 143, 119  , 5)',
-          'rgba(23, 165, 137 , 5)',
-          'rgba(72, 201, 176, 5)',
-          'rgba(209, 242, 235 , 5)',
-          'rgba(255, 159, 64, 3)',
+          'rgba(24, 106, 59  , 5)',
+          'rgba(14, 102, 85  , 5)',
+          'rgba(17, 122, 101 , 5)',
+          'rgba(19, 141, 117, 5)',
+          'rgba(34, 153, 84 , 5)',
+          'rgba(82, 190, 128, 3)',
+          'rgba(125, 206, 160 , 5)',
+          'rgba(212, 239, 223  , 5)',
+          'rgba(212, 239, 223 , 5)',
+          'rgba(233, 247, 239, 5)',
           
       ],
       borderColor: [

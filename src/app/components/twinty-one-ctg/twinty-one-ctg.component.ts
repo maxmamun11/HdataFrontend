@@ -62,15 +62,20 @@ this.adTwintyoneCtg.data.datasets?.pop();
     type: 'bar',
     data: {
       datasets: [{
-        label: 'Top 10 Categotry in 2021',
+        label: 'Top 10 Category in 2021',
         data: y,
         backgroundColor: [
-          'rgba(14, 98, 81 , 5)',
-          'rgba(20, 143, 119  , 5)',
-          'rgba(23, 165, 137 , 5)',
-          'rgba(72, 201, 176, 5)',
+          'rgba(100, 30, 22 , 5)',
+          'rgba(123, 36, 28  , 5)',
+          'rgba(146, 43, 33 , 5)',
+          'rgba(169, 50, 38, 5)',
+          'rgba(192, 57, 43 , 5)',
+          'rgba(205, 97, 85 , 5)',
+          'rgba(217, 136, 128, 5)',
+          'rgba( 230, 176, 170 , 5)',
+          'rgba(242, 215, 213, 5)',
           'rgba(209, 242, 235 , 5)',
-          'rgba(255, 159, 64, 3)',
+          'rgba(249, 235, 234, 3)',
           
       ],
       borderColor: [
