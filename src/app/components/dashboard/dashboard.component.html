@@ -1,25 +1,77 @@
-<div class="col1">
-  <div class="col2d">
-    <div>
-      <app-q-one-tow-qtree></app-q-one-tow-qtree>
-      
-      <!-- <app-top-quater-t></app-top-quater-t> -->
-    </div>
-  </div>
-  <div class="col2d">
-    <div>
-      <app-twinty-one-ctg></app-twinty-one-ctg>
-    </div>
-  </div>
-  <div class="col2d">
-    <div>
-      <app-twinty-one-qthree></app-twinty-one-qthree>
-    </div>
-  </div>
-  <div class="col2d">
-    <div>
-      <app-twity-one></app-twity-one>
-    </div>
-  </div>
-</div>
+<div class="container" id="export-pdf">
+  <div class="col1" > 
+    <button mat-button (click)="onDownloadPdf()"> Export pdf</button>
+   <div class="col2d">
+            <mat-card class="">
 
+              <app-q-one-tow-qtree></app-q-one-tow-qtree>
+            </mat-card>       
+       
+        </div>
+        
+        <div class="col2d" >
+         
+            <app-twinty-one-ctg></app-twinty-one-ctg>
+          
+        </div>
+        <div class="col2d">
+       
+            <app-twinty-one-qthree></app-twinty-one-qthree>
+          
+        </div>
+        <div class="col2d">
+         
+            <app-twity-one></app-twity-one>
+          
+        </div>
+        <div class="col2d">
+         
+            <app-twinty-one-cat-three></app-twinty-one-cat-three>
+            
+          
+        </div>
+        <div class="col2d">
+         
+            <app-top-cat-three></app-top-cat-three>
+            <!-- //Top 10 category by format -->
+         
+        </div>
+        <div class="col2d">
+         
+            <app-stack-twity-one></app-stack-twity-one>
+            <!-- //stack of 2021 by format -->
+          
+        </div>
+        <div class="col2d">
+         
+            <app-cat-byformat-q></app-cat-byformat-q>
+            <!-- //Top 10 category by format Q3 -->
+          
+        </div>
+        <div lass="col2d">
+          <!-- <div class="col2d">
+         
+              <app-cat-byformat-q></app-cat-byformat-q>
+            
+            
+          </div>
+          <div class="col2d">
+            
+              <app-cat-byformat-q></app-cat-byformat-q>
+              
+          
+          </div>
+          <div class="col2d">
+           
+              <mat-card>
+                <app-cat-byformat-q></app-cat-byformat-q>
+              </mat-card>
+            
+           
+          </div> -->
+
+      
+        </div>
+      
+      </div>
+      <button mat-button (click)="onDownloadPdf()"></button>

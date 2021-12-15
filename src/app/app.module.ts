@@ -25,7 +25,11 @@ import { TwityOneComponent } from './components/twity-one/twity-one.component';
 import { TwintyOneQThreeComponent } from './components/twinty-one-qthree/twinty-one-qthree.component';
 import { TwintyOneCtgComponent } from './components/twinty-one-ctg/twinty-one-ctg.component';
 import { QOneTowQtreeComponent } from './components/q-one-tow-qtree/q-one-tow-qtree.component';
-
+import { TwintyOneCatThreeComponent } from './components/twinty-one-cat-three/twinty-one-cat-three.component';
+import { TopCatThreeComponent } from './components/top-cat-three/top-cat-three.component';
+import { StackTwityOneComponent } from './components/stack-twity-one/stack-twity-one.component';
+import { CatByformatQComponent } from './components/cat-byformat-q/cat-byformat-q.component';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -44,6 +48,10 @@ import { QOneTowQtreeComponent } from './components/q-one-tow-qtree/q-one-tow-qt
     TwintyOneQThreeComponent,
     TwintyOneCtgComponent,
     QOneTowQtreeComponent,
+    TwintyOneCatThreeComponent,
+    TopCatThreeComponent,
+    StackTwityOneComponent,
+    CatByformatQComponent,
    
   ],
   imports: [
@@ -57,7 +65,9 @@ import { QOneTowQtreeComponent } from './components/q-one-tow-qtree/q-one-tow-qt
     AppRoutingModule,
     BrowserAnimationsModule,
     ChartsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatCardModule
+    
    
     
   ],

@@ -1,28 +1,28 @@
 import { Component, OnInit } from '@angular/core';
 import { Chart } from 'chart.js';
-import { TwintyOneCtgService } from 'src/app/twinty-one-ctg.service';
+import { TwintyOneCatThreeService } from 'src/app/twinty-one-cat-three.service';
+
 
 @Component({
-  selector: 'app-twinty-one-ctg',
-  templateUrl: './twinty-one-ctg.component.html',
-  styleUrls: ['./twinty-one-ctg.component.css']
+  selector: 'app-twinty-one-cat-three',
+  templateUrl: './twinty-one-cat-three.component.html',
+  styleUrls: ['./twinty-one-cat-three.component.css']
 })
-export class TwintyOneCtgComponent implements OnInit {
+export class TwintyOneCatThreeComponent implements OnInit {
   [x: string]: any;
-  categoriess: any[] = []; // step one
-  adTwintyoneCtg = new Chart('adTwintyoneCtg', {}); // step 1 chart variable diclaration 
+  categoryiesQthree: any[] = [];// step one
+  adadTwintyoneCtgThree = new Chart('adadTwintyoneCtgThree',{})//step 1 chart
 
-
-  constructor(private tocs: TwintyOneCtgService) { }
+  constructor(private tocts: TwintyOneCatThreeService) { }
 
   ngOnInit(): void {
-      this.initTwintyOneCtg();
+    this.initTwintyOneCtgthree();
   }
 
-  // API Functions top 10 2021 Category step three
-  getAllTwintyoneCtg(): Promise<any> {
+// API Functions top 10 2021 Category step three
+getAllTwintyoneCtgthree(): Promise<any> {
   return new Promise((resolve, reject) => {
-    this.tocs.maxTwintyOnett()
+    this.tocts.maxTwintyOnetttt()
       .subscribe((response: any) => {
         if (response) {
           resolve(response);
@@ -36,40 +36,35 @@ export class TwintyOneCtgComponent implements OnInit {
   });
 } 
 
-async initTwintyOneCtg(){
-  await this.getAllTwintyoneCtg().then((data:any[])=>{
+async initTwintyOneCtgthree(){
+  await this.getAllTwintyoneCtgthree().then((data:any[])=>{
     let x: any[] = [];
     let y: any[] = [];
-    this.categoriess = data;
-    console.log(this.categoriess);
-    this.categoriess.forEach((topTwintyOneCtg: {_id: any; Total: any;}) =>{
-      x.push(topTwintyOneCtg._id); 
-      y.push(topTwintyOneCtg.Total); 
+    this.categoryiesQthree = data;
+    console.log(this.categoryiesQthree);
+    this.categoryiesQthree.forEach((topTwintyOneCtgthree: {_id: any; Q3: any;}) =>{
+      x.push(topTwintyOneCtgthree._id); 
+      y.push(topTwintyOneCtgthree.Q3); 
     });
-    this.addTwintyOneCtgChartFunction(x, y);
+    this.addTwintyOneCtgThreeChartFunction(x, y);
   }).catch((_err: any) => {
     //Error message
   })
 }
 
 
-addTwintyOneCtgChartFunction(x :any, y :any) {
-  console.log('ctg2021',x)
-  console.log('ctg valu',y)
-this.adTwintyoneCtg.data.datasets?.pop();
+addTwintyOneCtgThreeChartFunction(x :any, y :any) {
+  console.log('ctgQthree2021',x)
+  console.log('ctgQthree2021 valu',y)
+this.adadTwintyoneCtgThree.data.datasets?.pop();
 
-  this.adTwintyoneCtg = new Chart('adTwintyoneCtg', {
+  this.adadTwintyoneCtgThree = new Chart('adadTwintyoneCtgThree', {
     type: 'bar',
     data: {
       datasets: [{
-        label: 'Top 10 Category in 2021',
+        label: 'Top 10 Category Q3 in 2021',
         data: y,
         backgroundColor: [
-
-
-
-
-        
           'rgba(100, 30, 22 , 5)',
           'rgba(123, 36, 28  , 5)',
           'rgba(146, 43, 33 , 5)',
@@ -103,4 +98,6 @@ this.adTwintyoneCtg.data.datasets?.pop();
     }
   })
 } 
+
+
 }
