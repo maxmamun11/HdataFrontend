@@ -30,6 +30,12 @@ import { TopCatThreeComponent } from './components/top-cat-three/top-cat-three.c
 import { StackTwityOneComponent } from './components/stack-twity-one/stack-twity-one.component';
 import { CatByformatQComponent } from './components/cat-byformat-q/cat-byformat-q.component';
 import {MatCardModule} from '@angular/material/card';
+import { CatByEnvComponent } from './components/cat-by-env/cat-by-env.component';
+import { CatByEnvstackComponent } from './components/cat-by-envstack/cat-by-envstack.component';
+import { CatByEnvQTComponent } from './components/cat-by-env-qt/cat-by-env-qt.component';
+import { CatByRegiComponent } from './components/cat-by-regi/cat-by-regi.component';
+import { CatByRegistackComponent } from './components/cat-by-registack/cat-by-registack.component';
+import { CatByRegiQTComponent } from './components/cat-by-regi-qt/cat-by-regi-qt.component';
 
 
 
@@ -52,6 +58,12 @@ import {MatCardModule} from '@angular/material/card';
     TopCatThreeComponent,
     StackTwityOneComponent,
     CatByformatQComponent,
+    CatByEnvComponent,
+    CatByEnvstackComponent,
+    CatByEnvQTComponent,
+    CatByRegiComponent,
+    CatByRegistackComponent,
+    CatByRegiQTComponent,
    
   ],
   imports: [

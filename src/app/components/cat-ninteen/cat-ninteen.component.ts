@@ -73,11 +73,7 @@ export class CatNinteenComponent implements OnInit {
           data: y,
           backgroundColor: [
             'rgba(14, 98, 81 , 5)',
-            'rgba(20, 143, 119  , 5)',
-            'rgba(23, 165, 137 , 5)',
-            'rgba(72, 201, 176, 5)',
-            'rgba(209, 242, 235 , 5)',
-            'rgba(255, 159, 64, 3)',
+            
             
         ],
         borderColor: [
